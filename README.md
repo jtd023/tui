@@ -1,28 +1,48 @@
-## PERSONAL INFO
+### PERSONAL INFO
 Javier Teodoro Díaz
 
+### COMPANY INFO
 Consulting Company => DigiHunting
 
 ### CODE DESCRIPTION
-class Cities => all methods are stored in this class
 
-__construct => set the data into cities array
+#### index.php
+the file where the routes are defined
 
-main => get all the cities search the weather for today and tomorrow and print that data into the terminal
+#### class Routes
+methods for the routing in the API
 
-weather => call to the weatherapi and search the weather base on the days given
+#### class Cities
+all methods for the API are stored in this class
 
-cities => print a list of all the cities from musement API into the terminal
+#### __construct
+set the data into cities array
 
-api => make a get request to the url provide
+#### main
+get all the cities search the weather for today and tomorrow and print that data into the terminal
 
-read => GET enpoint, needs a city name and days to return the weather in json format
+#### weather 
+call to the weatherapi and search the weather base on the days given
 
-day => returns the number of days in case of today or tomorrow
+#### cities 
+print a list of all the cities from musement API into the terminal
 
-city => get all the data from a city
+#### api
+make a get request to the url provide
 
-### CODE USE
-main => in terminal "php cities.php"
+#### read
+GET enpoint, needs a city name and days to return the weather in json format
 
-read => GET endpoint "read/{city}/{day}" => exmple "read/Amsterdam/today"
+#### day 
+returns the number of days in case of today or tomorrow
+
+#### city 
+get all the data from a city
+
+### HOW TO USE CODE
+
+#### main 
+in terminal "php cities.php"
+
+#### read 
+GET endpoint "read/{city}/{day}" => exmple "read/Amsterdam/today"
